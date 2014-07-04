@@ -49,3 +49,7 @@ group :production do
 	gem 'pg'
 	gem 'rails_12factor'
 end
+
+# Devise for user authentication
+gem 'devise', '~> 3.2.4'
+
