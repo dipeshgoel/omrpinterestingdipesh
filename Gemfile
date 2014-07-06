@@ -27,6 +27,11 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 
+# Devise for user authentication
+gem 'devise', '~> 3.2.4'
+# Paperclip for uploading pics and docs
+gem 'paperclip', github: 'thoughtbot/paperclip'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -50,6 +55,5 @@ group :production do
 	gem 'rails_12factor'
 end
 
-# Devise for user authentication
-gem 'devise', '~> 3.2.4'
+
 
