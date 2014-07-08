@@ -31,6 +31,8 @@ gem 'spring',        group: :development
 gem 'devise', '~> 3.2.4'
 # Paperclip for uploading pics and docs
 gem 'paperclip', github: 'thoughtbot/paperclip'
+# Amazon S3 
+gem 'aws-sdk', '~> 1.46.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
