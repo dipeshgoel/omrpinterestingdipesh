@@ -91,7 +91,7 @@ Rails.application.configure do
       :bucket => ENV['AWS_BUCKET'],
       :access_key_id => ENV['AWS_ACCESS_KEY_ID'],
       :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY'],
-      :url =>':s3-us-west-2.amazonaws.com'
+      :url =>':s3_domain_url'
     }
   }
 
