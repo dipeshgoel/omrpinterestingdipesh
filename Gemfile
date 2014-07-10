@@ -25,6 +25,9 @@ gem 'jquery-turbolinks'
 gem 'masonry-rails', '~> 0.2.0'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
+# Add pages to scroll through pictures
+gem 'will_paginate', '~> 3.0.5'
+gem 'will_paginate-bootstrap'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
