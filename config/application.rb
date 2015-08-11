@@ -6,7 +6,11 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+<<<<<<< HEAD
 module Omrails
+=======
+module Soudfuzed
+>>>>>>> 7b523556630b158c2d1d2019b6bb203aee62f384
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
@@ -20,7 +24,12 @@ module Omrails
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
 
+<<<<<<< HEAD
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+=======
+    # Required for heroku
+    config.assets.initialize_on_precompile = false
+>>>>>>> 7b523556630b158c2d1d2019b6bb203aee62f384
   end
 end

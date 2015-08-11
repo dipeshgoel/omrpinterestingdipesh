@@ -12,6 +12,7 @@
 /db/*.sqlite3-journal
 
 # Ignore all logfiles and tempfiles.
+<<<<<<< HEAD
 /log/*
 !/log/.keep
 /tmp
@@ -21,3 +22,9 @@ doc/
 .project
 .DS_Store
 .idea
+=======
+/log/*.log
+/tmp
+.ds_Store
+/public/system/*
+>>>>>>> 7b523556630b158c2d1d2019b6bb203aee62f384

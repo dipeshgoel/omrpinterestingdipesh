@@ -1,4 +1,14 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
+=======
+  resources :pins
+
+  devise_for :users
+  #get 'pages/home'
+  root 'pins#index'
+  get "about" => "pages#about"
+
+>>>>>>> 7b523556630b158c2d1d2019b6bb203aee62f384
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
